@@ -68,4 +68,5 @@ int main() {
 
 
 
-//squ
+//to run the code
+//lex 6_calculator.l

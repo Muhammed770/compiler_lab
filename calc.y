@@ -41,3 +41,16 @@ void yyerror(const char *s)
 	printf("\nenter the arithmetic expression is invalid\n");
 	flag=1;
 }
+
+//  to run code type following commands in terminal
+// $ lex calc.l
+// $ yacc -d calc.y
+// $ gcc lex.yy.c y.tab.c -ll -ly
+// $ ./a.out
+
+
+or to create your own object file
+// $ lex -o calc.yy.c calc.l
+// $ yacc -d -o calc.tab.c calc.y
+// $ gcc calc.yy.c calc.tab.c -ll -ly
+// $ ./a.out
