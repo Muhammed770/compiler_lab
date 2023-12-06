@@ -56,3 +56,6 @@ void yyerror(const char *s)
 // $ ./a.out
 
 // or to create your own executable file
+// $ lex -o calc.yy.c calc.l
+// $ yacc -d -o calc.tab.c calc.y
+// $ gcc calc.yy.c calc.tab.c -ll -ly -o calc	
