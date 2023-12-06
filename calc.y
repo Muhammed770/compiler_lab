@@ -54,3 +54,5 @@ void yyerror(const char *s)
 // $ yacc -d -o calc.tab.c calc.y
 // $ gcc calc.yy.c calc.tab.c -ll -ly
 // $ ./a.out
+
+// or to create your own executable file
