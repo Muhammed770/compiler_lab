@@ -1,4 +1,10 @@
 %{
+#include<stdio.h>
+#include "y.tab.h"
+%}
+
+
+%{
 extern float yylval;
 %}
 digit [0-9]

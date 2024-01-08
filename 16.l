@@ -1,3 +1,8 @@
+%{
+#include<stdio.h>
+#include "y.tab.h"
+%}
+
 struct "struct"
 alpha [_A-Za-z]
 digit [0-9]

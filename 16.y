@@ -39,7 +39,7 @@ asks:
 	;
 
 %%
-#include "16.yy.c"
+// #include "16.yy.c"
 void yyerror(char *s) { 
 	//fprintf(stderr, "%s\n", s);  
 } 

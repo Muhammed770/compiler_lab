@@ -39,7 +39,7 @@ factor:
 	| OPEN expr CLOSE {$$ = $2; }
 	;
 %% 
-#include "19.yy.c"
+// #include "19.yy.c"
 void yyerror(char *s) { 
 	fprintf(stderr, "%s\n", s);  
 } 

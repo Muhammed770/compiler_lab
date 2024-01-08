@@ -42,7 +42,7 @@ body:
 	;
 stmt_group:
 	
-	| stmt stmt_group
+	| stmt stmt_group SEMICOLON
 	;
 rhs:
 	IDENTIFIER
@@ -50,7 +50,7 @@ rhs:
 	;
 
 %%
-#include "17.yy.c"
+// #include "17.yy.c"
 void yyerror(char *s) { 
 	//fprintf(stderr, "%s\n", s);  
 } 
